@@ -1,0 +1,28 @@
+# --- Model ağırlıkları (GitHub 100 MB dosya sınırını aşıyor / harici indirilebilir) ---
+sam2_hiera_large.pt
+depth_anything_v2_vitl.pth
+depth_anything_v2_vits.pth
+turk_yemekleri_resnet50.pth
+
+# --- Veri seti (21.000+ görsel, ~675 MB) ---
+Turkish Food/
+
+# --- Çalışma anında üretilen çıktı görselleri ---
+cikti_1_yolo.jpg
+cikti_2_seg.jpg
+cikti_3_depth.jpg
+
+# --- Python ---
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+env/
+.ipynb_checkpoints/
+
+# --- Editör / işletim sistemi ---
+.vscode/
+.idea/
+.DS_Store
+*~
